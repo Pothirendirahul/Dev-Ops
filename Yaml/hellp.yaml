@@ -1,0 +1,23 @@
+"apple" : "I am a red Fruit"
+1: "this is rahul"
+---
+#list
+-apple
+-banana 
+-orange
+-Apple
+---
+#Block styles
+#below lines are the seprators of the document 
+---
+cities:
+  - delhi
+  - banglore
+  - mumbai
+---
+cities: [new Delhi,mumbai]
+
+---
+{mango: "Yellow Fruit ", age: 56}
+#below is ending of the document 
+...

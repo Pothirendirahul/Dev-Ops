@@ -1,0 +1,30 @@
+student: !!seq
+  - name: rahucities:  - delhi - banglore  - mumbail
+    age: 20
+  - name: ramesh
+    age: 21
+  - name: raju
+
+# spare seq
+sparse seq:
+  - name: rahul
+  -hey
+# nested seq
+nested seq:
+  - !!seq
+    - name: rahul
+    - age: 20
+  - !!seq
+    - name: ramesh
+    - age: 21
+  - !!seq
+    - name: raju
+#map
+map: !!map
+  name: rahul
+  age: 20   
+
+#nested maps
+nested maps:
+  - !!map
+    name: rahul

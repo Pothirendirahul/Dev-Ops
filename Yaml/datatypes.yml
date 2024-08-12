@@ -1,0 +1,17 @@
+name: Rahul Pothirendi
+fruit: "apple"
+job: 'swe' 
+
+
+---
+marks: !!float 67.66 
+infinite: !!float .infinite
+message: !!str 
+exponential Number: 6.02E56
+
+#null
+surname: !!null null
+
+#dates and time
+time: !!str 10:00:00
+date: !!str 2022-02-01
